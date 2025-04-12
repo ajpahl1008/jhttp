@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ajpahl1008_jhttp_1744489199841-pr-trigger-input-set
+  identifier: Build_ajpahl1008_jhttp_1744489199841prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ajpahl1008_jhttp_1744489199841
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
